@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #192026;
+}
+.navigation-container{
+    margin-top: 20px;
+}
+.anchoredLogo{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 40pt;
+    transition: .5s;
+}
+.anchoredLogo:hover{
+    color: #374151;
+}
+.anchoredLinks a{
+    color: white;
+    font-weight: 500;
+    font-size: 13pt;
+    transition: .5s;
+}
+.anchoredLinks:hover{
+    color: #374151;
+}
+.subscription-section{
+    margin-top: 50px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+} 
+.subscriptionHeading1{
+    text-align: center;
+    font-weight: bold;
+}
+.subscriptionHeading5{
+    text-align: center;
+    font-weight: 500;
+}
+.subscriptionButton{  
+    background-color: #374151;  
+    display: flex;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    transform: .5s;
+}
+.subscriptionButton:hover{
+    background-color: #7F8389;
+    color: white;
+}
+.subscriptionAnchoredLink{
+    color: white;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    font-weight: bold;
+}
+.subscriptionAnchoredLink:hover{
+    color:black;
+}
+.guide-section{
+    margin-top: 100px;
+    background-color: #192026;
+}
+.guide-section-card{
+    border: none;
+    border-radius: 10px;
+    height: 350px;
+    background-color: #7F8389;
+}
+.guideHeading5{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+}
+.faq-section{
+    margin-top: 100px;
+    padding-bottom: 50px;
+    background-color: #7F8389;
+}
+.faqHeading1{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.faq-button{
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #D9D9D9;
+    border: none;
+    transition: .5s;
+}
+.faq-button:hover{
+    border: none;
+    color: white;
+    background-color: #192026;
+}
+.faqHeading2{
+    text-align: start;
+}
+.faq-collapse{
+    background-color: #7F8389;
+}
+.footer-section{
+    height: 200px;
+    background-color: #192026;
+}
