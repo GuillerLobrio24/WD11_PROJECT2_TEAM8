@@ -15,6 +15,19 @@ body {
 .anchoredLogo:hover{
     color: #374151;
 }
+.anchored-link-button{
+    border: none;
+}
+.anchored-link{
+    color: white;
+    font-weight: 500;
+    font-size: 13pt;
+    transition: .5s;
+    text-decoration: none;
+}
+.anchored-link:hover{
+    color: #374151;
+}
 .anchoredLinks a{
     color: white;
     font-weight: 500;
@@ -73,6 +86,10 @@ body {
     height: 350px;
     background-color: #7F8389;
 }
+.guide-section-card a{
+    text-decoration: none;
+    color: white;
+}
 .guideHeading5{
     padding-top: 150px;
     padding-bottom: 150px;
@@ -108,6 +125,42 @@ body {
 }
 .faq-collapse{
     background-color: #7F8389;
+}
+.modal-content{
+    padding: 50px;
+}
+.loginModalHeader1{
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.submit-btn{
+    border: none;
+    width: 100%;
+    margin-bottom: 5px;
+    background-color: #D9D9D9;
+    transition: .5s;
+}
+.submit-btn:hover{
+    color: white;
+    background-color: #7F8389;
+}
+.reset-btn{
+    border: none;
+    width: 100%;
+    background-color: #D9D9D9;
+    transition: .5s;
+}
+.reset-btn:hover{
+    color: white;
+    background-color: #7F8389;
+}
+.loginModalHeader5{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.login-modal-image{
+    object-fit: cover;
 }
 .footer-section{
     height: 200px;

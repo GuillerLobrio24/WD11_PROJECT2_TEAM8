@@ -46,8 +46,12 @@
                             <br>
                         </div>  
 
-                        <div class="col-md-1 anchoredLinks">
-                            <a class="nav-link" href="">Log In</a>
+                        <div class="col-md-2 anchoredLinks">
+
+                            <button class="btn anchored-link-button" data-bs-toggle="modal" data-bs-target="#loginModal">
+                                <a class="anchored-link">Log In</a>
+                            </button>
+
                         </div>
         
                         <div class="col-md-2 anchoredLinks">
@@ -55,12 +59,13 @@
                         </div>
 
                     </div>
+
                 </div>
 
-            
             </div>
 
         </div>
+
     </nav>
 
     <!-- Subscription Section Container -->
@@ -79,7 +84,7 @@
                 <h5 class="subscriptionHeading5">Subscribe and Enjoy Watching!</h5>
                 <br>
                 <button class="btn subscriptionButton">
-                    <a href="" class="subscriptionAnchoredLink">
+                    <a href="SubscriptionPage.html" class="subscriptionAnchoredLink">
                         <h3>Watch Now</h3>
                     </a>
                 </button>
@@ -103,7 +108,7 @@
             <div class="col-4 guide-section-container">
 
                 <div class="p-3 guide-section-card"> 
-                    <h5 class="guideHeading5">Subscribe</h5> 
+                    <a href="SubscriptionPage.html"><h5 class="guideHeading5">Subscribe</h5></a>
                 </div>
 
             </div>
@@ -111,7 +116,7 @@
             <div class="col-4 guide-section-container">
 
                 <div class="p-3 guide-section-card">
-                    <h5 class="guideHeading5">Watch</h5>
+                    <a href="WatchPage.html"><h5 class="guideHeading5">Watch</h5></a>
                 </div>
 
             </div>
@@ -119,7 +124,7 @@
             <div class="col-4 guide-section-container">
 
                 <div class="p-3 guide-section-card">
-                    <h5 class="guideHeading5">Communicate</h5>
+                    <a href=""><h5 class="guideHeading5">Communicate</h5></a>
                 </div>
 
             </div>
@@ -195,6 +200,84 @@
         </div>
 
     </div>
+
+    <!-- Login Modal Section Container -->
+
+    <div id="loginModal" class="login-modal modal fade modal-xl" role="dialog">
+
+        <div class="modal-dialog">
+      
+          <!-- Modal content-->
+
+            <div class="modal-content">
+
+            <div class="container modal-body">
+
+                
+
+                <div class="row">
+
+                    <div class="col-md-5 login-modal-section">
+
+                        <h1 class="loginModalHeader1">Log In</h1>
+
+                        <form>
+
+                            <div class="form-group">
+        
+                              <label for="email">Email address:</label>
+                              <br>
+                              <input type="email" class="form-control" id="email"
+                              placeholder="Enter Email Address">
+        
+                            </div>
+        
+                            <br>
+                            
+                            <div class="form-group">
+        
+                              <label for="pwd">Password:</label>
+                              <br>
+                              <input type="password" class="form-control" id="password"
+                              placeholder="Enter Password">
+        
+                            </div>
+        
+                            <br>
+        
+                            <div class="checkbox">
+        
+                              <label><input type="checkbox"> Remember me</label>
+        
+                            </div>
+                            
+                            <br>
+                            
+                            <button type="submit" class="btn submit-btn">Submit</button>
+                            <button type="reset" class="btn reset-btn">Reset</button>
+
+                            <h5 class="loginModalHeader5">Or</h5>
+
+        
+                        </form>
+
+                    </div>
+
+                    <div class="col-md-7">
+
+                        <img src="Images/LoginModalImage1.png" alt="" class="login-modal-image block w-100">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            </div>
+      
+        </div>
+
+      </div>
 
     <!-- Footer -->
 
