@@ -39,12 +39,13 @@ body {
 }
 .subscription-section{
     margin-top: 50px;
-    background-color: #D9D9D9;
+    background-image: url("Images/hero/hero-2.jpg");
+    background-size: cover;
     border: none;
     border-radius: 10px;
     padding-top: 150px;
     padding-bottom: 150px;
-} 
+}
 .subscriptionHeading1{
     text-align: center;
     font-weight: bold;
@@ -97,6 +98,7 @@ body {
     font-weight: bold;
     font-size: 20pt;
 }
+
 .faq-section{
     margin-top: 100px;
     padding-bottom: 50px;

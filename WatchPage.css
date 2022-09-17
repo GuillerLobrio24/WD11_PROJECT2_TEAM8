@@ -48,11 +48,44 @@ body {
     padding-bottom: 50px;
     background-color: #D9D9D9;
 }
-.topAnime-section-card{
-    border: none;
+.topAnime-section-card1{
+    border: 1px solid black;
     border-radius: 10px;
-    background-color: #374151;
-    width: 175px;
+    background-image: url("Images/trending/trend-1.jpg");
+    background-size: contain;
+    width: 100%;
+    height: 250px;
+}
+.topAnime-section-card2{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/trending/trend-2.jpg");
+    background-size: contain;
+    width: 100%;
+    height: 250px;
+}
+.topAnime-section-card3{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/trending/trend-3.jpg");
+    background-size: contain;
+    width: 100%;
+    height: 250px;
+}
+.topAnime-section-card4{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/trending/trend-4.jpg");
+    background-size: contain;
+    width: 100%;
+    height: 250px;
+}
+.topAnime-section-card5{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/trending/trend-5.jpg");
+    background-size: contain;
+    width: 100%;
     height: 250px;
 }
 .category-section{
@@ -90,32 +123,365 @@ body {
 .carousel-item{
     padding: 50px;
 }
-.one{
-    border: none;
+.action-1{
+    border: 1px solid black;
     border-radius: 10px;
-    background-color: red;
+    background-image: url("Images/action/action-1.webp");
+    background-size: cover;
     width: 20%;
     margin-left: 27px;
     margin-right: 27px;
     height: 250px;  
 }
-.two{
-    border: none;
+.action-2{
+    border: 1px solid black;
     border-radius: 10px;
-    background-color: blue;
+    background-image: url("Images/action/action-2.webp");
+    background-size: cover;
     width: 20%;
     margin-left: 27px;
     margin-right: 27px;
-    height: 250px;
+    height: 250px;  
 }
-.three{
-    border: none;
+.action-3{
+    border: 1px solid black;
     border-radius: 10px;
-    background-color: yellow;
+    background-image: url("Images/action/action-3.webp");
+    background-size: cover;
     width: 20%;
     margin-left: 27px;
     margin-right: 27px;
-    height: 250px;
+    height: 250px;  
+}
+.action-4{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/action/action-4.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.action-5{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/action/action-5.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.action-6{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/action/action-6.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.action-7{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/action/action-7.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.action-8{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/action/action-8.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.action-9{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/action/action-9.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.action-10{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/action/action-10.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.action-11{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/action/action-11.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.action-12{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/action/action-12.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.drama-1{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/drama/drama-1.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.drama-2{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/drama/drama-2.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.drama-3{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/drama/drama-3.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.drama-4{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/drama/drama-4.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.drama-5{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/drama/drama-5.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.drama-6{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/drama/drama-6.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.drama-7{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/drama/drama-7.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.drama-8{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/drama/drama-8.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.drama-9{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/drama/drama-9.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.drama-10{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/drama/drama-10.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.drama-11{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/drama/drama-11.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.drama-12{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/drama/drama-12.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.fantasy-1{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/fantasy/fantasy-1.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.fantasy-2{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/fantasy/fantasy-2.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.fantasy-3{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/fantasy/fantasy-3.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.fantasy-4{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/fantasy/fantasy-4.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.fantasy-5{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/fantasy/fantasy-5.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.fantasy-6{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/fantasy/fantasy-6.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.fantasy-7{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/fantasy/fantasy-7.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.fantasy-8{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/fantasy/fantasy-8.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.fantasy-9{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/fantasy/fantasy-9.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.fantasy-10{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/fantasy/fantasy-10.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.fantasy-11{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/fantasy/fantasy-11.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.fantasy-12{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url("Images/fantasy/fantasy-12.webp");
+    background-size: cover;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
 }
 .drama-section{
     margin-top: 50px;
@@ -143,7 +509,7 @@ body {
     padding-top: 50px;
     padding-left: 50px;
 }
-.fictionHeading1{
+.fictiongigHeading1{
     color: black;
     font-weight: bold;
     padding-top: 50px;
