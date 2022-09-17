@@ -1,0 +1,105 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #192026;
+}
+.navigation-container{
+    margin-top: 20px;
+}
+.anchoredLogo{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 40pt;
+    transition: .5s;
+}
+.anchoredLogo:hover{
+    color: #374151;
+}
+.anchored-link-button{
+    border: none;
+}
+.anchored-link{
+    color: white;
+    font-weight: 500;
+    font-size: 13pt;
+    transition: .5s;
+    text-decoration: none;
+}
+.anchored-link:hover{
+    color: #374151;
+}
+.anchoredLinks a{
+    color: white;
+    font-weight: 500;
+    font-size: 13pt;
+    transition: .5s;
+}
+.anchoredLinks:hover{
+    color: #374151;
+}
+.searchBar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+.streamAnime-section{
+    padding: 50px;
+    background-color: #374151;
+}
+.video-section video{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+.react-section-container{
+    width: 100%;
+    margin-top: 20px;
+}
+.react-section-container h3{
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+.subscribe-section-container{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #d9d9d9;
+}
+.subscribe-section-container h3{
+    padding: 10px;
+}
+.threads-section-container{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #d9d9d9;
+}
+.threads-section-container h3{
+    padding: 10px;
+} 
+.watchList-section{
+    width: 100%;
+    background-color: antiquewhite;
+}
+.watchList-section h3{
+    text-align: center;
+    padding: 10px;
+}
+.watchList{
+    padding: 10px;
+}
+.watchList-card{
+    height: 100px;
+    background-color: #7F8389;
+}
+.watchList-title h5{
+    text-align: center;
+}
+.footer-section{
+    margin-top: 50px;
+    height: 200px;
+    background-color: #7F8389;
+}

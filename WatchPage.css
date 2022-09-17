@@ -87,11 +87,34 @@ body {
     padding-top: 50px;
     padding-left: 50px;
 }
-.action-section-card{
+.carousel-item{
+    padding: 50px;
+}
+.one{
     border: none;
     border-radius: 10px;
-    background-color: #374151;
-    width: 175px;
+    background-color: red;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;  
+}
+.two{
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 250px;
+}
+.three{
+    border: none;
+    border-radius: 10px;
+    background-color: yellow;
+    width: 20%;
+    margin-left: 27px;
+    margin-right: 27px;
     height: 250px;
 }
 .drama-section{
