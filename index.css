@@ -91,14 +91,20 @@ body {
     text-decoration: none;
     color: white;
 }
-.guideHeading5{
-    padding-top: 150px;
-    padding-bottom: 150px;
+.guide-section-card h5{
+    overflow: hidden;
     text-align: center;
     font-weight: bold;
+    color: white;
     font-size: 20pt;
 }
-
+.guide-section-card i{
+    margin-top: 90px;
+    overflow: hidden;
+    font-size: 50px;    
+    color: white;
+    text-align: center;
+}
 .faq-section{
     margin-top: 100px;
     padding-bottom: 50px;
