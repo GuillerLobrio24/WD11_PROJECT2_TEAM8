@@ -16,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="" />
+    <!-- <link rel="icon" href="" /> -->
     <title>Home</title>
   </head>
   <body>
@@ -77,30 +77,43 @@
       <h1 class="previewHeading1">Featuring</h1>
       <h5 class="previewHeading5">What are you gonna Watch today?</h5>
 
-      <div class="row align-items-center preview-section-container">
-        <div class="col-md-12">
+      <div class="d-flex justify-content-center align-items-center preview-section-container">
+        
           <div class="container imageBox pt-5">
             <img
               id="img1"
               class="card card--active"
               src="./Images/popular/popular-1.jpg"
-              style="width: 100%"
+              style="width: 100%; display: block; margin-inline: auto"
             />
             <img
               id="img2"
               class="card card--left"
               src="./Images/popular/popular-2.jpg"
-              style="width: 100%"
+              style="width: 100%; display: block; margin-inline: auto"
             />
+
             <img
               id="img3"
+              class="card card--outerleft"
+              src="./Images/popular/popular-4.jpg"
+              style="width: 100%; display: block; margin-inline: auto"
+            />
+            <img
+              id="img4"
+              class="card card--outerright"
+              src="./Images/popular/popular-6.jpg"
+              style="width: 100%; display: block; margin-inline: auto"
+            />
+            <img
+              id="img5"
               class="card card--right"
               src="./Images/popular/popular-3.jpg"
-              style="width: 100%"
+              style="width: 100%; display: block; margin-inline: auto"
             />
           </div>
         </div>
-      </div>
+      
     </div>
 
     <!-- New Release Section Container -->
@@ -166,21 +179,70 @@
 
     <!-- Footer -->
 
-    <div class="container-fluid footer-section">
-      <div class="row align-items-center">
-        <div class="col-md-12">
-          <br />
+    <footer>
+      <div class="container-fluid footer-section bg-black">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-3 col-md-3 col-12 ms-auto">
+            <div class="first-row text-center">
+              <a href=""><h1>Animeo</h1></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-xs-12 col-12 ms-auto">
+            <div class="second-row text-center">
+              <a href="">Home</a>
+              <a href="">Watch</a>
+              <a href="">About</a>
+            </div>
+          </div>
+  
+          <div class="col-lg-2 col-md-2 col-12 ms-auto">
+            <div class="third-row text-center">
+              <a href="">Log-In</a>
+              <a href="">Sign-up</a>
+              <a href="">Account</a>
+            </div>
+          </div>
+  
+          <div class="col-lg-2 col-md-2 col-12 ms-auto">
+            <div class="fourth-row text-center">
+              <a href="">FAQ's</a>
+              <a href="">Terms & Condition</a>
+              <a href="">Privacy Policy</a>
+            </div>
+          </div>
+  
+          <div class="col-lg-3 col-md-3 col-12 ms-auto">
+            <div class="fifth-row text-center">
+              <h4 class="text-white">Want to know more?</h4>
+              <input type="text" class="form-control" />
+              <div class="icon-box">
+                <i class="bi bi-facebook bi-lg" style="font-size:20px;"></i>
+                <i class="bi bi-instagram bi-lg" style="font-size:20px;"></i>
+                <i class="bi bi-twitter bi-lg" style="font-size:20px;"></i>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+  
+      <div class="container-fluid">
+        <div class="row text-center p-3 ender">
+          <p class="text-white">&copy; Alrights Reserved 2022</p>
+        </div>
+      </div>
+    </footer>
+  
   </body>
   <script>
-myIndex = 0;
+    myIndex = 0;
     carousel();
     function carousel() {
       let Img1 = document.querySelector("#img1");
       let Img2 = document.querySelector("#img2");
       let Img3 = document.querySelector("#img3");
+      let Img4 = document.querySelector("#img4");
+      let Img5 = document.querySelector("#img5");
+      let Img6 = document.querySelector("#img6");
       var i;
       var x = document.querySelectorAll(".card");
       x.forEach((card) => {
@@ -192,13 +254,51 @@ myIndex = 0;
             Img1.classList.add("card--left");
 
             Img2.classList.remove("card--left");
+            Img2.classList.add("card--outerleft");
+
+            Img3.classList.remove("card--outerleft");
+            Img3.classList.add("card--outerright");
+
+            Img4.classList.remove("card--outerright");
+            Img4.classList.add("card--right");
+
+            Img5.classList.remove("card--right");
+            Img5.classList.add("card--active");
+          } else if (myIndex == 2) {
+            // myIndex++;
+            Img1.classList.remove("card--left");
+            Img1.classList.add("card--outerleft");
+
+            Img2.classList.remove("card--outerleft");
+            Img2.classList.add("card--outerright");
+
+            Img3.classList.remove("card--outerright");
+            Img3.classList.add("card--right");
+
+            Img4.classList.remove("card--right");
+            Img4.classList.add("card--active");
+
+            Img5.classList.remove("card--active");
+            Img5.classList.add("card--left");
+          } else if (myIndex == 3) {
+            // myIndex++;
+            Img1.classList.remove("card--outerleft");
+            Img1.classList.add("card--outerright");
+
+            Img2.classList.remove("card--outerright");
             Img2.classList.add("card--right");
 
             Img3.classList.remove("card--right");
             Img3.classList.add("card--active");
-          } else if (myIndex == 2) {
+
+            Img4.classList.remove("card--active");
+            Img4.classList.add("card--left");
+
+            Img5.classList.remove("card--left");
+            Img5.classList.add("card--outerleft");
+          } else if (myIndex == 4) {
             // myIndex++;
-            Img1.classList.remove("card--left");
+            Img1.classList.remove("card--outerright");
             Img1.classList.add("card--right");
 
             Img2.classList.remove("card--right");
@@ -206,7 +306,13 @@ myIndex = 0;
 
             Img3.classList.remove("card--active");
             Img3.classList.add("card--left");
-          } else if (myIndex == 3) {
+
+            Img4.classList.remove("card--left");
+            Img4.classList.add("card--outerleft");
+
+            Img5.classList.remove("card--outerleft");
+            Img5.classList.add("card--outerright");
+          } else if (myIndex == 5) {
             // myIndex++;
             Img1.classList.remove("card--right");
             Img1.classList.add("card--active");
@@ -215,7 +321,13 @@ myIndex = 0;
             Img2.classList.add("card--left");
 
             Img3.classList.remove("card--left");
-            Img3.classList.add("card--right");
+            Img3.classList.add("card--outerleft");
+
+            Img4.classList.remove("card--outerleft");
+            Img4.classList.add("card--outerright");
+
+            Img5.classList.remove("card--outerright");
+            Img5.classList.add("card--right");
           }
       });
       myIndex++;
@@ -226,7 +338,6 @@ myIndex = 0;
       console.log(myIndex);
     }
   </script>
-    
 
   <script src="js/bootstrap.bundle.js"></script>
 </html>

@@ -1,298 +1,338 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="icon" href="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="" />
     <title>Animeo</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- Navigation Bar -->
 
     <nav class="navbar navbar-expand-lg">
-        
-        <div class="container navigation-container" >
+      <div class="container navigation-container">
+        <!-- Navigation Bar Logo -->
 
-            <!-- Navigation Bar Logo -->
+        <a href="" class="anchoredLogo">
+          <!-- <img class="navbar-brand d-block" src="" width="100%" height="100px"> -->
+          AnimeO
+        </a>
 
-            <a href="" class="anchoredLogo">
-                <!-- <img class="navbar-brand d-block" src="" width="100%" height="100px"> -->
-                AnimeO
-            </a>
+        <!-- Navigation Bar Collapse Button for Page Responsiveness -->
 
-            <!-- Navigation Bar Collapse Button for Page Responsiveness -->
+        <button
+          class="navbar-toggler bg-light"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarExample"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <button class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#navbarExample">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <div class="collapse navbar-collapse" id="navbarExample">
+          <!-- Navigation Bar Anchored Links -->
 
-            <div class="collapse navbar-collapse" id="navbarExample">
-                
-                <!-- Navigation Bar Anchored Links -->
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-1">
+                <br />
+              </div>
 
-                <div class="container">
+              <div class="col-md-2 anchoredLinks">
+                <button
+                  class="btn anchored-link-button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#loginModal"
+                >
+                  <a class="anchored-link">Log In</a>
+                </button>
+              </div>
 
-                    <div class="row align-items-center">
-
-                        <div class="col-md-1">
-                            <br>
-                        </div>  
-
-                        <div class="col-md-2 anchoredLinks">
-
-                            <button class="btn anchored-link-button" data-bs-toggle="modal" data-bs-target="#loginModal">
-                                <a class="anchored-link">Log In</a>
-                            </button>
-
-                        </div>
-        
-                        <div class="col-md-2 anchoredLinks">
-                            <a class="nav-link" href="SignUpPage.html">Sign Up</a>
-                        </div>
-
-                    </div>
-
-                </div>
-
+              <div class="col-md-2 anchoredLinks">
+                <a class="nav-link" href="SignUpPage.html">Sign Up</a>
+              </div>
             </div>
-
+          </div>
         </div>
-
+      </div>
     </nav>
 
     <!-- Subscription Section Container -->
 
     <div class="container subscription-section">
-
-        <div class="row align-items-center">
-
-            <div class="col-md-2">
-                <br>
-            </div>
-
-            <div class="col-md-8">
-
-                <h1 class="subscriptionHeading1">Watch Your Favorite Anime</h1>
-                <h5 class="subscriptionHeading5">Subscribe and Enjoy Watching!</h5>
-                <br>
-                <button class="btn subscriptionButton">
-                    <a href="SubscriptionPage.html" class="subscriptionAnchoredLink">
-                        <h3>Watch Now</h3>
-                    </a>
-                </button>
-
-            </div>
-
-            <div class="col-md-2">
-                <br>
-            </div>
-
+      <div class="row align-items-center">
+        <div class="col-md-2">
+          <br />
         </div>
 
+        <div class="col-md-8">
+          <h1 class="subscriptionHeading1">Watch Your Favorite Anime</h1>
+          <h5 class="subscriptionHeading5">Subscribe and Enjoy Watching!</h5>
+          <br />
+          <button class="btn subscriptionButton">
+            <a href="SubscriptionPage.html" class="subscriptionAnchoredLink">
+              <h3 class="text-center">Watch Now</h3>
+            </a>
+          </button>
+        </div>
+
+        <div class="col-md-2">
+          <br />
+        </div>
+      </div>
     </div>
 
     <!-- Guide Section Container -->
 
-    <div class="container overflow-hidden guide-section ">
-
-        <div class="row gy-5">
-
-            <div class="col-4 guide-section-container">
-
-                <div class="p-3 guide-section-card"> 
-                    <a href="SubscriptionPage.html"><h5 class="guideHeading5">Subscribe</h5></a>
-                </div>
-
-            </div>
-
-            <div class="col-4 guide-section-container">
-
-                <div class="p-3 guide-section-card">
-                    <a href="WatchPage.html"><h5 class="guideHeading5">Watch</h5></a>
-                </div>
-
-            </div>
-
-            <div class="col-4 guide-section-container">
-
-                <div class="p-3 guide-section-card">
-                    <a href=""><h5 class="guideHeading5">Communicate</h5></a>
-                </div>
-
-            </div>
-
+    <div class="container overflow-hidden guide-section">
+      <div class="row gy-5">
+        <div class="col-lg-4 col-md-4 col-12 guide-section-container">
+          <div class="p-3 guide-section-card">
+            <a href="SubscriptionPage.html"
+              ><h5 class="guideHeading5">Subscribe</h5></a
+            >
+          </div>
         </div>
 
+        <div class="col-lg-4 col-md-4 col-12 guide-section-container">
+          <div class="p-3 guide-section-card">
+            <a href="WatchPage.html"><h5 class="guideHeading5">Watch</h5></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-12 guide-section-container">
+          <div class="p-3 guide-section-card">
+            <a href=""><h5 class="guideHeading5">Communicate</h5></a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- FAQs Section Container -->
 
     <div class="container-fluid faq-section">
-
-        <div class="row align-items-centers">
-
-            <div class="col-md-1">
-                <br>
-            </div>
-
-            <div class="col-md-10 faq-section-">
-
-                <h1 class="faqHeading1">Frequently Asked Questions</h1>
-
-                <button class="btn faq-button" type="button" data-bs-toggle="collapse" data-bs-target="#question1">
-                    <h2 class="faqHeading2"> Question 1</h2>
-                </button>
-
-                <div class="collapse faq-collapse" id="question1">
-                    <hr>
-                    <p class="faq-content">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolore hic saepe repudiandae recusandae reiciendis, sed autem, unde alias neque, quod voluptas voluptatibus dolorem voluptatem harum aperiam sint. Placeat, illum!
-                    </p>
-                </div>
-
-                <button class="btn faq-button" type="button" data-bs-toggle="collapse" data-bs-target="#question2">
-                    <h2 class="faqHeading2"> Question 2</h2>
-                </button>
-
-                <div class="collapse faq-collapse" id="question2">
-                    <hr>
-                    <p class="faq-content">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolore hic saepe repudiandae recusandae reiciendis, sed autem, unde alias neque, quod voluptas voluptatibus dolorem voluptatem harum aperiam sint. Placeat, illum!
-                    </p>
-                </div>
-
-                <button class="btn faq-button" type="button" data-bs-toggle="collapse" data-bs-target="#question3">
-                    <h2 class="faqHeading2"> Question 3</h2>
-                </button>
-
-                <div class="collapse faq-collapse" id="question3">
-                    <hr>
-                    <p class=" faq-content">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolore hic saepe repudiandae recusandae reiciendis, sed autem, unde alias neque, quod voluptas voluptatibus dolorem voluptatem harum aperiam sint. Placeat, illum!
-                    </p>
-                </div>
-                
-                <button class="btn faq-button" type="button" data-bs-toggle="collapse" data-bs-target="#question4">
-                    <h2 class="faqHeading2"> Question 4</h2>
-                </button>
-
-                <div class="collapse faq-collapse" id="question4">
-                    <hr>
-                    <p class=" faq-content">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolore hic saepe repudiandae recusandae reiciendis, sed autem, unde alias neque, quod voluptas voluptatibus dolorem voluptatem harum aperiam sint. Placeat, illum!
-                    </p>
-                </div>
-
-            </div>
-
-            <div class="col-md-1">
-                <br>
-            </div>
-
+      <div class="row align-items-centers">
+        <div class="col-md-1">
+          <br />
         </div>
 
+        <div class="col-md-10 faq-section-">
+          <h1 class="faqHeading1">Frequently Asked Questions</h1>
+
+          <button
+            class="btn faq-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#question1"
+          >
+            <h2 class="faqHeading2">Question 1</h2>
+          </button>
+
+          <div class="collapse faq-collapse" id="question1">
+            <hr />
+            <p class="faq-content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores dolore hic saepe repudiandae recusandae reiciendis, sed
+              autem, unde alias neque, quod voluptas voluptatibus dolorem
+              voluptatem harum aperiam sint. Placeat, illum!
+            </p>
+          </div>
+
+          <button
+            class="btn faq-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#question2"
+          >
+            <h2 class="faqHeading2">Question 2</h2>
+          </button>
+
+          <div class="collapse faq-collapse" id="question2">
+            <hr />
+            <p class="faq-content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores dolore hic saepe repudiandae recusandae reiciendis, sed
+              autem, unde alias neque, quod voluptas voluptatibus dolorem
+              voluptatem harum aperiam sint. Placeat, illum!
+            </p>
+          </div>
+
+          <button
+            class="btn faq-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#question3"
+          >
+            <h2 class="faqHeading2">Question 3</h2>
+          </button>
+
+          <div class="collapse faq-collapse" id="question3">
+            <hr />
+            <p class="faq-content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores dolore hic saepe repudiandae recusandae reiciendis, sed
+              autem, unde alias neque, quod voluptas voluptatibus dolorem
+              voluptatem harum aperiam sint. Placeat, illum!
+            </p>
+          </div>
+
+          <button
+            class="btn faq-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#question4"
+          >
+            <h2 class="faqHeading2">Question 4</h2>
+          </button>
+
+          <div class="collapse faq-collapse" id="question4">
+            <hr />
+            <p class="faq-content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores dolore hic saepe repudiandae recusandae reiciendis, sed
+              autem, unde alias neque, quod voluptas voluptatibus dolorem
+              voluptatem harum aperiam sint. Placeat, illum!
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-1">
+          <br />
+        </div>
+      </div>
     </div>
 
     <!-- Login Modal Section Container -->
 
     <div id="loginModal" class="login-modal modal fade modal-xl" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
 
-        <div class="modal-dialog">
-      
-          <!-- Modal content-->
+        <div class="modal-content">
+          <div class="container modal-body">
+            <div class="row">
+              <div class="col-md-5 login-modal-section">
+                <h1 class="loginModalHeader1">Log In</h1>
 
-            <div class="modal-content">
+                <form>
+                  <div class="form-group">
+                    <label for="email">Email address:</label>
+                    <br />
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="Enter Email Address"
+                    />
+                  </div>
 
-            <div class="container modal-body">
+                  <br />
 
-                
+                  <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <br />
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="password"
+                      placeholder="Enter Password"
+                    />
+                  </div>
 
-                <div class="row">
+                  <br />
 
-                    <div class="col-md-5 login-modal-section">
+                  <div class="checkbox">
+                    <label><input type="checkbox" /> Remember me</label>
+                  </div>
 
-                        <h1 class="loginModalHeader1">Log In</h1>
+                  <br />
 
-                        <form>
+                  <button type="submit" class="btn submit-btn">Submit</button>
+                  <button type="reset" class="btn reset-btn">Reset</button>
 
-                            <div class="form-group">
-        
-                              <label for="email">Email address:</label>
-                              <br>
-                              <input type="email" class="form-control" id="email"
-                              placeholder="Enter Email Address">
-        
-                            </div>
-        
-                            <br>
-                            
-                            <div class="form-group">
-        
-                              <label for="pwd">Password:</label>
-                              <br>
-                              <input type="password" class="form-control" id="password"
-                              placeholder="Enter Password">
-        
-                            </div>
-        
-                            <br>
-        
-                            <div class="checkbox">
-        
-                              <label><input type="checkbox"> Remember me</label>
-        
-                            </div>
-                            
-                            <br>
-                            
-                            <button type="submit" class="btn submit-btn">Submit</button>
-                            <button type="reset" class="btn reset-btn">Reset</button>
+                  <h5 class="loginModalHeader5">Or</h5>
+                </form>
+              </div>
 
-                            <h5 class="loginModalHeader5">Or</h5>
-
-        
-                        </form>
-
-                    </div>
-
-                    <div class="col-md-7">
-
-                        <img src="Images/LoginModalImage1.png" alt="" class="login-modal-image block w-100">
-
-                    </div>
-
-                </div>
-
+              <div class="col-md-7">
+                <img
+                  src="Images/LoginModalImage1.png"
+                  alt=""
+                  class="login-modal-image block w-100"
+                />
+              </div>
             </div>
-
-            </div>
-      
+          </div>
         </div>
-
       </div>
+    </div>
 
     <!-- Footer -->
 
-    <div class="container-fluid footer-section">
-
-        <div class="row align-items-center">
-
-            <div class="col-md-12">
-                <br>
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid footer-section">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-3 col-md-3 col-12 ms-auto">
+            <div class="first-row text-center">
+              <a href=""><h1>Animeo</h1></a>
             </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-xs-12 col-12 ms-auto">
+            <div class="second-row text-center">
+              <a href="">Home</a>
+              <a href="">Watch</a>
+              <a href="">About</a>
+            </div>
+          </div>
 
+          <div class="col-lg-2 col-md-2 col-12 ms-auto">
+            <div class="third-row text-center">
+              <a href="">Log-In</a>
+              <a href="">Sign-up</a>
+              <a href="">Account</a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-12 ms-auto">
+            <div class="fourth-row text-center">
+              <a href="">FAQ's</a>
+              <a href="">Terms & Condition</a>
+              <a href="">Privacy Policy</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-12 ms-auto">
+            <div class="fifth-row text-center">
+              <h4 class="text-black">Want to know more?</h4>
+              <input type="text" class="form-control" />
+              <div class="icon-box">
+                <i class="bi bi-facebook bi-lg" style="font-size: 20px"></i>
+                <i class="bi bi-instagram bi-lg" style="font-size: 20px"></i>
+                <i class="bi bi-twitter bi-lg" style="font-size: 20px"></i>
+              </div>
+            </div>
+          </div>
         </div>
-
-    </div>
-    
-</body>
-<script src="js/bootstrap.bundle.js"></script>
+      </div>
+      <div class="container-fluid">
+        <div class="row text-center p-3 bg-black ender">
+          <p class="text-white">&copy; Alrights Reserved 2022</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="js/bootstrap.bundle.js"></script>
 </html>
