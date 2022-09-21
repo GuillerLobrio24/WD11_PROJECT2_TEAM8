@@ -1,0 +1,295 @@
+/* Body Css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #192026;
+}
+/* Navigation Bar Css */
+.navigation-container{
+    margin-top: 20px;
+}
+.anchoredLogo{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 40pt;
+    transition: .5s;
+}
+.anchoredLogo:hover{
+    color: #374151;
+}
+.anchored-link-button{
+    border: none;
+}
+.anchored-link{
+    color: white;
+    font-weight: 500;
+    font-size: 13pt;
+    transition: .5s;
+    text-decoration: none;
+}
+.anchored-link:hover{
+    color: #374151;
+}
+.anchoredLinks a{
+    color: white;
+    font-weight: 500;
+    font-size: 13pt;
+    transition: .5s;
+}
+.anchoredLinks:hover{
+    color: #374151;
+}
+.searchBar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+/* Streaming Container Css - Big Monitor */
+.streamAnime-section{
+    padding: 50px;
+    background-color: #374151;
+    margin-bottom: 50px;
+}
+/* Streaming Container Css - 760 Monitor */
+@media only screen and (max-width:760px){
+    .streamAnime-section{
+        margin-bottom: 50px;
+    }
+    .video-section{
+        width: 100%;
+    }
+    .reaction-section-container{
+        width: 100%;
+    }
+}
+/* Video Section Css */
+.video-section video{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+/* Reaction Section Css */  
+.reaction-section-container{
+    width: 95%;
+    margin-top: 20px;
+    background-color: #d9d9d9;
+}
+.reactionSectionHeading2{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.react-content {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+.react-content .btn-secondary {
+    text-align: center;
+    background: #374151;
+    border-radius: 3px;
+    box-shadow: 0 10px 20px -8px rgb(116, 116, 116);
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.react-content .btn-secondary:hover {
+	transform: translateY(-3px);
+}
+.react-content .btn-secondary .bi {
+	margin-right: 5px;
+}
+.react-content button i{
+    color: white;
+}
+.animate-like {
+	animation-name: reactAnimation;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-duration: 0.65s;
+}
+@keyframes reactAnimation {
+  0%   { transform: scale(30); }
+  100% { transform: scale(1); }
+}
+.reaction-section-container h3{
+    text-align: center;
+    margin: auto;
+    margin-right: 30px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.reaction-section-container i{
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    margin-right: 10px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* Thumbnail Section Css - Big Monitor */
+.watchList-container{
+    background-color: #d9d9d9;
+}
+.watchList-section{
+    margin-bottom: 8px;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.watchList-section h3{
+    text-align: center;
+    width: 100%;
+}
+.watchList-active{
+    background-color: #7F8389;
+    padding: 10px;
+}
+.watchList-active a{
+    text-decoration: none;
+    color: black;
+}
+.watchList{
+    padding: 10px;
+}
+.watchList:hover{
+    background-color: #7F8389;
+}
+.watchList a{
+    text-decoration: none;
+    color: black;
+}
+.watchList-card img{
+    border: 1px solid black;
+}
+.watchList-title h5{
+    margin-top: 25px;
+    text-align: center;
+}
+/* Thumbnail Section Css - 760 Monitor */
+@media only screen and (max-width:760px){
+    .watchList-active{
+        display: block;
+    }
+    .watchList{
+        display: block;
+    }
+    .trendList-card a, img{
+        width: 50%;
+    }
+    .trendList-title a, h5{
+        width: 100%;
+        font-size: 25px;
+        overflow: hidden;
+    }           
+}
+/* Community Section Css - Big Monitor */
+.community-section-container{
+    width: 95%;
+    margin-top: 20px;
+
+}
+.community-section-container h1{
+    color: black;
+    padding: 20px;
+}
+/* Thread Section Css*/
+.thread-section-container{
+    background-color: #d9d9d9;
+    margin-bottom: auto;
+    padding: 20px;
+    height: 100%;
+}
+.thread-section-container button{
+    background-color: #7F8389;
+    color: white;
+    float: right;
+    margin: 10px;
+}
+/* Community Section Css - 760 Monitor */
+@media only screen and (max-width:760px){
+       .community-section-container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+       }
+       thread-section{
+        margin-top: 20px;
+        margin-bottom: 50px;
+       }
+}
+/* Trend List Section Css - Big Monitor*/
+.trendList-container{
+    background-color: #374151;
+}
+.trendList-section{
+    padding: 20px;
+    margin-bottom: 8px;
+}
+.trendList-section h3{
+    text-align: center;
+    color: white;
+}
+.trendList{
+    padding: 10px;
+}
+.trendList:hover{
+    background-color: #7F8389;
+}
+.trendList-card a, img{
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: center;
+}
+.trendList-title a{
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+}
+.trendList-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trendList-image{
+    width: 450px;
+    height: 250px;
+}
+.trendList-title h5{
+    text-align: center;
+}
+/* Trend List Section Css - 760 Monitor*/
+@media only screen and (max-width:760px){
+    .trendList{
+        display: block;
+    }
+    .trendList-card a, img{
+        width: 100%;
+    }
+    .trendList-title a, h5{
+        margin-top: 10px;
+        width: 100%;
+        font-size: 25px;
+        overflow: hidden;
+    }           
+}
+/* Footer Css */
+.footer-section{
+    margin-top: 50px;
+    height: 200px;
+    background-color: #7F8389;
+}
